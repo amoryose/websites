@@ -1,0 +1,54 @@
+html{
+	box-sizing: border-box;
+}
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+body{
+	background-color: #a9d7e9;
+}
+h1{
+	text-align: center;
+}
+h3{
+	text-align: center;
+}
+form{
+	/* margin: auto; */
+	/* max-width: 800px; */
+	background-color: #f3f3f3;
+}
+label{
+	display: inline-block;
+	text-align: right;
+	width: 40%;
+	padding-bottom: 5px;
+	vertical-align: top;
+}
+.radio{
+	display: inline-block;
+	margin-right: 10%;
+}
+.checkbox{
+	display: inline-block;
+}
+h3{
+	text-align: center;
+}
+button{
+	background-color: #6ba2ce;
+	color: white;
+	width: 80px;
+	height: 40px;
+	border-radius: 4px;
+	position: center;
+	margin-left: 38.4%;
+}
+/*RESPONSIVE STYLE
+---------------------*/
+ @media screen and (min-width: 800px){
+    form {
+		margin: auto;
+		width: 800px;
+  }
+}

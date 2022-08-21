@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Form 1</title>
+	<link rel="stylesheet" href="form1_styles.css" />
+
+	<script type="text/javascript" src="form1Script.js"></script>
+
+</head>
+
+<body>
+	<main>
+		<h1>This is form number one</h1>
+		<p id="note">Note: form is to be completed soon</p>
+
+		<form id="myForm">  
+			<fieldset>
+				<legend>Personal Details</legend>
+				<label for="fname">First Name:</label>
+				<input type="text" id="fname" placeholder="Enter first name">
+				 <span style="color:red" id="error1"></span><br>
+				<label for="lname">Last Name:</label>
+				<input type="text" id="lname" placeholder="Enter last name">
+				 <span style="color:red" id="error2"></span><br>
+				<label for="user_email">Email</label>
+				<input type="email" id="user_email" placeholder="Enter email">
+				 <span style="color:red" id="error3"></span><br>
+				<label for="phone">Phone Number</label>
+				<input type="tel" id="phone" placeholder="123-455-6789">
+				 <span style="color:red" id="error4"></span><br>
+				<label for="gender">Gender</label><br>
+				<input type="radio" name="gender" value="Male">Male<br>
+				<input type="radio" name="gender" value="Female">Female<br>
+				<label for="birthday">Birthday</label>
+				<input type="date" name="birthday">
+			</fieldset>
+
+			<fieldset>
+				<legend>Check all that apply</legend>
+				<input type="checkbox" name="one">Check One <br>
+				<input type="checkbox" name="two">Check Two <br>
+				<input type="checkbox" name="three">Check Three <br>
+				<input type="checkbox" name="four">Check Four
+			</fieldset>
+
+			<fieldset>
+				<label for="political" id="political_label">Political Party</label>
+					<select name="political">
+						<option>Select Option</option>
+						<option value="Republican">Republican</option>
+						<option value="Democrate">Democrate</option>
+						<option value="Green Party">Green Party</option>
+					</select>
+					<br><br>
+				<label for="education">Education Lavel</label>
+					<select name="education">
+						<option>Select Option</option>
+						<option value="Colleg">College</option>
+						<option value="High School">High School</option>
+						<option value="None">None</option>
+					</select>			
+			</fieldset>
+
+			<fieldset>
+				<legend>Tell us about yourself</legend>
+				 <textarea rows="9" cols="52"></textarea>
+			</fieldset>
+				
+				<button type="submit" onclick="validateForm()">Submit</button>
+		</form>
+
+		
+
+	</main>
+
+</body>
+</html>
