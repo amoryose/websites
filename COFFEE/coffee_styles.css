@@ -1,0 +1,54 @@
+html{
+	box-sizing: border-box;
+}
+*, *:before, *:after{
+	box-sizing: inherit;
+}
+body{
+	font-family: sans-serif;
+	background-image: url("coffee_beans.jpeg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.menu{
+    position: relative;
+    border: 2px solid red;
+    max-width: 613px;
+    width: 100%;
+    margin: auto;
+    background-color: burlywood;  
+}
+header{
+    text-align: center;
+}
+hr{
+    width: 90%;
+    height: 5px;
+    background-color: brown;    
+}
+.sub_head{
+    text-align: center;
+}
+.flex_items{
+    display: flex;
+}
+ul{
+    list-style-type: none;
+}
+.items{
+    border: 2px solid red;
+    margin-left: 5%;
+    background-color: blue;
+}
+.items ul{
+    padding-left: 0;
+}
+.price{
+    border: 2px solid greenyellow;
+    margin-left: auto;
+    margin-right: 5%;
+}
+footer{
+    text-align: center;
+}
