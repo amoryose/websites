@@ -1,0 +1,107 @@
+html{
+    box-sizing: border-box;
+  }
+*, *:before, *:after{
+    box-sizing: inherit;
+  }
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 0.5;
+    background: linear-gradient(to left, #7808f0, #06bdf5);
+}
+h1{
+    color: white;
+    /* margin-top: 300px;
+    margin-left: 100px; */
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 700px;
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 111%;
+}
+.calci{
+    /* width: 280px; */
+    /* padding-top: 26px;
+    padding-bottom: 26px;
+    position: absolute;
+     top: 60%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    /* transition: .25px; */
+    /* text-align: center; */
+    /* border: 2px solid red; */
+    margin: auto;
+    /* width: 20%; */
+    max-width: 252px;
+}
+#display{
+    border: none;
+    background: white;
+    border-radius: 18px;
+    /* margin: auto; */
+    width: 100%;
+    height: 60px;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300px;
+    padding-top: 10px;
+    
+    
+    border: 2px solid white;
+    color: black;
+}
+.btnDesign{
+    margin: auto;
+    width: 23%;
+    /* width: 55px; */
+    height: 55px;
+    padding-top: -1px;
+    background: white;
+    border: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 300px;
+    border-radius: 10px;
+    margin-left: 1.5px;
+}
+.operatorDesign{
+    margin: auto;
+    width: 23%;
+    /* width: 55px; */
+    height: 55px;
+    background: white;
+    padding-top: -1;
+    border: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 300px;
+    border-radius: 10px;
+    margin: 1.5px;
+    transition: .25px;
+    cursor: pointer;
+}
+.operatorDesign:hover{
+    background: #00d9ff;
+}
+#zero{
+    margin: auto;
+    width: 48.3%;
+    /* width: 110px; */
+    height: 55px;
+    padding-top: -1;
+    border: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 300px;
+    border-radius: 10px;
+    margin-left: 1.5px;
+    background: white;
+}
+footer{
+    position: absolute;
+    bottom: 10px;
+    line-height: 100%;
+}
